@@ -10,3 +10,11 @@ function terms_changed(termsCheckBox){
         document.getElementById("submit_button").disabled = true;
     }
 }
+
+
+function start_call_error() {
+  document.getElementById("starterror").innerHTML = "Please agree to the terms above before proceeding";
+  setTimeout(function() {
+    $('#starterror').html('');
+  }, 3000);
+}
