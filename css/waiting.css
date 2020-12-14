@@ -85,6 +85,16 @@ ul li:last-child{
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  text-align: left;
+}
+.btn-small{
+    height: 36px;
+    border-radius: 5px;
+    border-color: #10069f;
+    background-color: #10069f;
+    color: white;
+    font-size: 16px;
+    align-self: center;
 }
 
 /* The Close Button */
