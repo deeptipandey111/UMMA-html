@@ -61,9 +61,10 @@
       <i id="mic" onclick="micState()" class="fa fa-microphone fa-2x"></i>
     </li>
         
-    <!-- phone call -->
+    <!-- end call -->
     <li>
-       <i class="fa fa-phone fa-2x" ></i>
+
+       <i id="endcall" onclick="location.href='./exit.html';" class="fa fa-phone fa-2x" ></i>
     </li>
 
   </ul>
@@ -101,6 +102,9 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+function endCall(){
+
 }
 </script>
 </html>
