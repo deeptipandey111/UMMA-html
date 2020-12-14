@@ -26,7 +26,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   clearTimeout(timer);
-  timer = setTimeout(() => plusSlides(1), 2000);
+  timer = setTimeout(() => plusSlides(1), 5000);
 
 }
 
