@@ -223,7 +223,7 @@ q {font-style: italic;}
 
 /* different screen sizes */
 
-/* iphone se & galaxy fold  */
+/* galaxy fold */
 @media(min-width : 280px) and (max-width : 320px){
   .sub-container{
     margin-top: 30%;
