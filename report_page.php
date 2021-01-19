@@ -25,9 +25,9 @@
     echo "Thank you for making UMMA connect safer with your report!";
     ?>
   </div>
-  <br><br>
+<!--   <br><br>
 
-  <br><br>
+  <br><br> -->
 
 
 </div>
